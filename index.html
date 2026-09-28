@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cardápio Brasa do Sertão</title>
+
+</head>
+
+
+<body>
+
+
+    <!-- CABEÇALHO -->
+
+    <header>
+
+        <h1>BRASA DO SERTÃO</h1>
+
+        <p>Churrascaria & Restaurante</p>
+
+    </header>
+
+
+    <!-- FILTROS -->
+
+    <nav class="filtros">
+
+        <button class="filtro ativo" data-categoria="todos">
+            Todos
+        </button>
+
+        <button class="filtro" data-categoria="carnes">
+            Carnes
+        </button>
+
+        <button class="filtro" data-categoria="guarnicoes">
+            Guarnições
+        </button>
+
+        <button class="filtro" data-categoria="bebidas">
+            Bebidas
+        </button>
+
+    </nav>
+
+
+    <!-- CARDÁPIO -->
+
+    <main class="cardapio modo-todos">
+
+
+        <!-- =========================
+             CARNES
+        ========================== -->
+
+        <div class="carnes">
+
+
+            <!-- PICANHA -->
+
+            <div class="produto item-card" data-categoria="carnes">
+
+                <img src="picanha.png" alt="Picanha Nordestina">
+
+                <div class="informacoes">
+
+                    <h2>Picanha Nordestina</h2>
+
+                    <p>
+                        Uma picanha com alma de churrasco (cerca de 1kg), suculenta e macia,
+                        temperada com sal grosso e assada na brasa até atingir a perfeição.
+                        Acompanha farofa crocante (100g), vinagrete fresco e pão de alho
+                        caseiro (5 unidades).
+                    </p>
+
+                    <strong>Preço: R$ 199,90</strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- FILÉ -->
+
+            <div class="file item-card" data-categoria="carnes">
+
+                <img src="file.png" alt="Filé do Lmapião">
+
+                <div class="informacoesfile">
+
+                    <h2>Filé do Lampião</h2>
+
+                    <p>
+                        Um filé mignon de 300g, macio e suculento, temperado com ervas finas
+                        e assado na brasa. Acompanha bãiao de 2 (400g) e batata frita
+                        crocante (150g).
+                    </p>
+
+                    <strong>Preço: R$ 49,90</strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- COSTELA -->
+
+            <div class="costela item-card" data-categoria="carnes">
+
+                <img src="costela.png" alt="Costela do Sertão">
+
+                <div class="informacoescostela">
+
+                    <h2>Costela do Papa Figo</h2>
+
+                    <p>
+                        Uma costela bovina de 1,5kg, temperada com especiarias e assada
+                        lentamente na brasa até ficar macia e suculenta. Acompanha mandioca
+                        cozida (300g) e molho barbecue caseiro.
+                    </p>
+
+                    <strong>Preço: R$ 169,90</strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- FRANGO -->
+
+            <div class="frango item-card" data-categoria="carnes">
+
+                <img src="frango.png" alt="Frango do Sertão">
+
+                <div class="informacoesfrango">
+
+                    <h2>Galeto Maria Bonita</h2>
+
+                    <p>
+                        Frango caipira de 800g temperado em ervas e especiarias, assado
+                        na brasa até dourar. Acompanha arroz de leite (200g) e salada
+                        fresca (150g).
+                    </p>
+
+                    <strong>Preço: R$ 139,90</strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- CUPIM -->
+
+            <div class="cupim item-card" data-categoria="carnes">
+
+                <img src="cupim.png" alt="Cupim Antônio Conselheiro">
+
+                <div class="informacoescupim">
+
+                    <h2>Cupim Antônio Conselheiro</h2>
+
+                    <p>
+                        Cupim nobre de 800g assado na brasa e finalizado com melaço de
+                        cana e pimenta-de-cheiro. Acompanha feijão tropeiro (250g) e
+                        couve refogada (150g).
+                    </p>
+
+                    <strong>Preço: R$ 79,90</strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- SOBREMESA -->
+
+            <div class="sobremesa item-card" data-categoria="carnes">
+
+                <img src="sobremesa.png" alt="Doce de Leite Luiz Gonzaga">
+
+                <div class="informacoessobremesa">
+
+                    <h2>Doce de Leite Luiz Gonzaga</h2>
+
+                    <p>
+                        Uma sobremesa típica nordestina, feita com leite fresco, açúcar
+                        e essência de baunilha, servida com queijo coalho grelhado e
+                        canela polvilhada.
+                    </p>
+
+                    <strong>Preço: R$ 29,90</strong>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- =========================
+             LADO DIREITO
+        ========================== -->
+
+        <aside class="lado-direito">
+
+
+            <!-- GUARNIÇÕES -->
+
+            <section data-categoria="guarnicoes">
+
+                <h2 class="titulo-secao">Guarnições</h2>
+
+
+                <div class="guarnicao item-card" data-categoria="guarnicoes">
+
+                    <h2>Baião de Dois</h2>
+
+                    <p>
+                        Baião de dois caseiro, preparado com arroz, feijão e temperos.
+                    </p>
+
+                    <strong>R$ 14,90</strong>
+
+                </div>
+
+
+                <div class="guarnicao item-card" data-categoria="guarnicoes">
+
+                    <h2>Farofa da Casa</h2>
+
+                    <p>
+                        Farofa crocante preparada com temperos especiais da casa.
+                    </p>
+
+                    <strong>R$ 9,90</strong>
+
+                </div>
+
+
+                <div class="guarnicao item-card" data-categoria="guarnicoes">
+
+                    <h2>Mandioca Cozida</h2>
+
+                    <p>
+                        Mandioca cozida e temperada, macia e saborosa.
+                    </p>
+
+                    <strong>R$ 12,90</strong>
+
+                </div>
+
+
+                <div class="guarnicao item-card" data-categoria="guarnicoes">
+
+                    <h2>Feijão Tropeiro</h2>
+
+                    <p>
+                        Feijão tropeiro preparado com farinha, temperos e ingredientes
+                        selecionados.
+                    </p>
+
+                    <strong>R$ 16,90</strong>
+
+                </div>
+
+
+                <div class="guarnicao item-card" data-categoria="guarnicoes">
+
+                    <h2>Arroz de Leite</h2>
+
+                    <p>
+                        Arroz cremoso preparado com leite e temperos especiais.
+                    </p>
+
+                    <strong>R$ 13,90</strong>
+
+                </div>
+
+            </section>
+
+
+            <!-- BEBIDAS -->
+
+            <section data-categoria="bebidas">
+
+                <h2 class="titulo-secao bebidas-titulo">Bebidas</h2>
+
+
+                <div class="guarnicao item-card" data-categoria="bebidas">
+
+                    <h2>Coca-Cola</h2>
+
+                    <p>
+                        Refrigerante Coca-Cola gelado.
+                    </p>
+
+                    <strong>R$ 6,00</strong>
+
+                </div>
+
+
+                <div class="guarnicao item-card" data-categoria="bebidas">
+
+                    <h2>Guaraná</h2>
+
+                    <p>
+                        Refrigerante Guaraná gelado.
+                    </p>
+
+                    <strong>R$ 6,00</strong>
+
+                </div>
+
+
+                <div class="guarnicao item-card" data-categoria="bebidas">
+
+                    <h2>Água Mineral</h2>
+
+                    <p>
+                        Água mineral gelada.
+                    </p>
+
+                    <strong>R$ 4,00</strong>
+
+                </div>
+
+
+                <div class="guarnicao item-card" data-categoria="bebidas">
+
+                    <h2>Suco Natural</h2>
+
+                    <p>
+                        Suco natural preparado na hora.
+                    </p>
+
+                    <strong>R$ 8,00</strong>
+
+                </div>
+
+
+                <div class="guarnicao item-card" data-categoria="bebidas">
+
+                    <h2>Água de Coco</h2>
+
+                    <p>
+                        Água de coco natural e gelada.
+                    </p>
+
+                    <strong>R$ 7,00</strong>
+
+                </div>
+
+
+                <div class="guarnicao item-card" data-categoria="bebidas">
+
+                    <h2>Refrigerante em Lata</h2>
+
+                    <p>
+                        Refrigerante em lata, servido gelado.
+                    </p>
+
+                    <strong>R$ 6,00</strong>
+
+                </div>
+
+            </section>
+
+
+        </aside>
+
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <h2>BRASA DO SERTÃO</h2>
+
+        <p>
+            Churrascaria & Restaurante
+        </p>
+
+        <div class="contatos">
+
+            <p>📞 (85) 98888-7777</p>
+
+            <p>📍 Av. Beira Brasa, 123 - Fortaleza, CE</p>
+
+            <p>📷 @brasadosertao</p>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Brasa do Sertão - Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
